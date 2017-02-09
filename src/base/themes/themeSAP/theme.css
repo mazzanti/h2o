@@ -1,0 +1,44 @@
+/*
+* @Author: giulio
+* @Date:   2016-03-26 16:27:14
+* @Last Modified by:   giulio
+* @Last Modified time: 2016-05-01 15:30:50
+*/
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="datetime"],
+input[type="time"],
+input[type="week"],
+input[type="month"],
+input[type="email"],
+input[type="search"],
+textarea {
+    background: #FBF4AB;
+    color: black;
+    border: 1px solid #C7CACB;
+}
+
+select {
+  background: #FBF4AB;
+  color: black;
+}
+
+.inputRequired {
+  background: orange !important;
+}
+
+.oGrid {
+  background: #FFFFFF;
+}
+
+.floatingWindow {
+  border-right: 1px solid #C7CACB;
+  border-bottom: 1px solid #C7CACB;
+  border-left: 1px solid #C7CACB;
+  box-shadow: 3px #FBF4AB;
+}
